@@ -1,13 +1,20 @@
 ---
-title: "This is the about.qmd page title"
+title: "About"
 ---
 
-This is a Quarto website.
+I am a senior at Claremont McKenna College, graduating in December 2026 with a B.A. in Economics and a minor in Data Science. My work sits at the intersection of finance and data: I build financial models, do equity and market research, and use Python and R to turn messy data into clear answers.
 
-## This is a header
+## What I have worked on
 
-With content ... 
+- **Corporate strategy and operations:** AI and ERP adoption analysis, stakeholder interviews, and financial modeling at Comstock Inc.
+- **Real estate:** ranking 100+ EV charging sites by demand, traffic density, and market growth for the CMC Real Estate Practicum with Starpoint Properties.
+- **Equity research:** DCF and relative valuation models at ICICI Prudential Asset Management Company in Mumbai.
+- **Entrepreneurship and consulting:** leading events and onboarding for Pomona Ventures, and working as a Senior Consultant with Pomona Consulting Group.
 
-### And a sub-header 
+## Outside of work
 
-And more content ... 
+I like card games, manga, fantasy soccer, and following FC Barcelona. I also play intermural pickleball, soccer, and flag football. I speak English and Hindi, and I am working on my Marathi.
+
+## Get in touch
+
+The best way to reach me is on [LinkedIn](https://www.linkedin.com/in/psinghvi05).

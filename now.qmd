@@ -1,20 +1,16 @@
 ---
-title: "This is my now.qmd page title"
+title: "Now"
 ---
 
-This is a Quarto website.
+*Last updated: November 2026*
 
-## This is a header
+## What I am doing right now
 
-With content ... 
+- **Finishing my last semester at Claremont McKenna College.** I graduate in December 2026.
+- **Tutoring ECON 122** (Data Science and Statistical Learning) for the Robert Day School of Economics and Finance, and helping students with ML models and projects.
+- **Working with Pomona Ventures and Pomona Consulting Group**, supporting startup events and client projects.
+- **Building a data story** on how U.S. metro home prices have changed, using Zillow data. You can read it on the [Housing Story](pages/project/page01.qmd) page.
 
-### And a sub-header 
+## What I am learning
 
-And more content ... 
-
-
-[My Now page](now.qmd)
-
-[My Project page](pages/project/index.qmd)
-
-[Go back home](index.qmd)
+I am learning data visualization in R, with a focus on how design choices like titles, colors, and direct labels change what a reader takes away from a chart.

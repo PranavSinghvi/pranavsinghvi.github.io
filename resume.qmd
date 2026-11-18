@@ -1,0 +1,65 @@
+---
+title: "Resume"
+---
+
+## Education
+
+**Claremont McKenna College** | Claremont, California | Aug 2023 to Dec 2026
+
+- Bachelor of Arts in Economics, minor in Data Science
+- Relevant coursework: International Finance, Corporate Finance, Econometrics, Data Science and Structures, Behavioral Econ
+
+## Experience
+
+**Comstock Inc. (NYSE: LODE)** | Operations Analyst | Carson City, Nevada | Jun 2026 to Sep 2026
+
+- Advised leadership on enterprise AI and ERP adoption through a 5-year total cost of ownership analysis of three platforms.
+- Ran 15+ stakeholder interviews to diagnose operational bottlenecks and reframe the problem before proposing solutions.
+- Built the business case and executive presentation guiding digital transformation for a publicly listed, multi-entity company.
+- Built a techno-economic model comparing 3 bioenergy pathways and 4 business models on NPV, payback period, and IRR, with discounted cash flow and sensitivity analysis across greenfield, brownfield, supply, and royalty scenarios.
+- Delivered a decision-ready financial model and guide used by leadership to assess market entry and partnership economics.
+
+**Starpoint Properties (CMC Real Estate Practicum)** | Real Estate Analyst | Claremont, California | Jan 2026 to May 2026
+
+- Analyzed optimal EV charging sites across U.S. markets by land pricing, grid access, zoning, and permitting feasibility.
+- Built a Python and R model to rank 100+ sites by EV demand, traffic density, market growth, and adoption.
+- Supported net lease investment decisions by modeling cash flows, rent escalations, and downside risk for EV infrastructure assets.
+
+**ICICI Prudential Asset Management Company** | Equity Research Analyst | Mumbai, India | May 2025 to Jul 2025
+
+- Researched FMCG and Industrial companies and supported PMS/AIF portfolio strategy at India's largest AMC (AUM about $100B).
+- Built DCF, relative valuation, and residual income models to support stock recommendations and market sentiments.
+- Created equity reports to guide buy, hold, and sell decisions across $5mn in assets and participated in client earnings calls.
+
+**Street Smart** | Business Development and GTM Intern | San Francisco, California (Remote) | Jun 2025 to Aug 2025
+
+- Drove outreach to 50 institutional and student leads for a finance-focused SaaS platform used by 500 jobseekers.
+- Helped increase lead conversion rates by refining pitch scripts and scaling LinkedIn and email automation campaigns.
+- Coordinated with product and growth teams to target university career centers and close 5+ pilot deals.
+
+## Activities and Societies
+
+**Pomona Ventures** | Leadership Team | Claremont, California | Sep 2024 to Present
+
+- Organized Sagetank, a pitch competition with $6,000 in prizes and funding, engaging student startups and ideas.
+- Facilitated collaboration between 8 startup founders and 50+ students, providing resources and skill-building workshops.
+- Recruited and onboarded 15+ new members, leading them through entrepreneurship training and startup development initiatives.
+
+**Pomona Consulting Group** | Senior Consultant | Claremont, California | Jan 2024 to Present
+
+- Conducted market sizing and quantitative analysis on 3 projects using SWOT and STEEPLE analysis, boosting client insights.
+- Collaborated on 5 business plans with cross-functional teams, using software like Miro and Figma to help clients meet their goals.
+- Led a client project end-to-end, optimizing SEO and client websites, resulting in a 25% increase in customer traffic.
+
+**Robert Day School of Economics and Finance** | Economics Tutor, ECON 122 | Claremont, California | Sep 2025 to Present
+
+- Tutor 40 students in ECON 122, Data Science and Statistical Learning.
+- Teach ML models, supervise student projects, and grade problem sets.
+
+## Skills and Interests
+
+**Skills:** Financial and economic modeling, AI research, Microsoft Office, Python, R, HTML
+
+**Languages:** English, Hindi (proficient), Marathi (intermediate)
+
+**Interests:** Card games, manga, fantasy soccer, FC Barcelona

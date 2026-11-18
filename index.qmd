@@ -1,34 +1,36 @@
 ---
-title: "My Name"       # the title of the index page
+title: "Pranav Singhvi"
 about:
-  # template types
-  #template: jolla
   template: trestles
-  #template: broadside
-  # image details
-  image: files/profile-pic.jpg
-  image-width: 20em            # to adjust size
-  image-shape: round           # to make round
-  
-  links:
-    # add others
-    - icon: linkedin
-      href: https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all
-    - icon: twitter-x
-      href: https://x.com/CMCnews
+  image: files/profile.jpg
+  image-width: 20em
+  image-shape: round
 
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/psinghvi05
+    - icon: github
+      text: GitHub
+      href: https://github.com/PranavSinghvi
 ---
 
-I am a ... blah blah
+I am a senior at Claremont McKenna College studying Economics with a minor in Data Science. I enjoy combining financial modeling, research, and data analysis to answer practical questions, and I work in Python and R.
 
 ## Education
 
-Institution | City, State
-B.A in Degree | start - finish
+**Claremont McKenna College** | Claremont, California
+
+B.A. in Economics, minor in Data Science | Aug 2023 to Dec 2026
 
 ## Experience
 
-Organization A | Title | start - finish
+**Comstock Inc.** | Operations Analyst | Jun 2026 to Sep 2026
 
-Organization b | Title | start - finish
+**Starpoint Properties (CMC Real Estate Practicum)** | Real Estate Analyst | Jan 2026 to May 2026
 
+**ICICI Prudential Asset Management Company** | Equity Research Analyst | May 2025 to Jul 2025
+
+**Street Smart** | Business Development and GTM Intern | Jun 2025 to Aug 2025
+
+See the full details on my [Resume](resume.qmd) page, or read my [Housing Story](pages/project/page01.qmd), a data story on how U.S. metro home prices have changed.

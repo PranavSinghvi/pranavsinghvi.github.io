@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>This is the pages/project/page01.qmd title</title>
+<title>How Have U.S. Metro Home Prices Changed?</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">My Name or Site Title</span></a>
+<span class="menu-text">Pranav Singhvi</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../now.html"> 
@@ -99,43 +99,22 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../files/resume.pdf"> 
+    <a class="nav-link" href="../../resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pages/project/index.html"> 
-<span class="menu-text">Project Title</span></a>
+    <a class="nav-link active" href="../../pages/project/page01.html" aria-current="page"> 
+<span class="menu-text">Housing Story</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-title-wdd" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Project Title w/DD</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-title-wdd">    
-        <li>
-    <a class="dropdown-item" href="../../pages/project/page01.html">
- <span class="dropdown-text">This is the pages/project/page01.qmd title</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://mygithub.com/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/PranavSinghvi"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/CMCnews"> <i class="bi bi-twitter-x" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/cmc.edu"> <i class="bi bi-bluesky" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/psinghvi05"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -156,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">This is the pages/project/page01.qmd title</h1>
+<h1 class="title">How Have U.S. Metro Home Prices Changed?</h1>
 </div>
 
 
@@ -173,23 +152,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website. This is a file for a decidated page for your website. This file is only needed if you do not build your website as a single page in pages/index.qmd</p>
-<section id="this-is-a-header" class="level2">
-<h2 class="anchored" data-anchor-id="this-is-a-header">This is a header</h2>
-<p>With content …</p>
-<section id="and-a-sub-header" class="level3">
-<h3 class="anchored" data-anchor-id="and-a-sub-header">And a sub-header</h3>
-<p>And more content …</p>
-<p>along with full URL links <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a> or labelled <a href="https://cmc.edu">Claremont McKenna College</a> links.</p>
+<!-- SETUP LIBRARIES AND FUNCTIONS -->
+<!-- DATA BLOCK BELOW -->
+<!-- STORY BELOW -->
+<section id="the-question" class="level2">
+<h2 class="anchored" data-anchor-id="the-question">The question</h2>
+<p>Over the past two decades, U.S. home values went through a boom, a crash, a slow recovery, and a pandemic surge. This page asks a simple question: <strong>how many metro areas have moved into “expensive” territory, and where did it happen?</strong></p>
 </section>
-<section id="and-a-code-block" class="level3">
-<h3 class="anchored" data-anchor-id="and-a-code-block">And a code block</h3>
-<!-- SAVE PLOT AS PNG -->
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>I use Zillow’s Home Value Index (ZHVI), which estimates the typical home value in each metro area each month. The data covers 90 metros from 2000 to 2026. I average each metro’s monthly values within a year and sort every metro-year into one of four price bands: under $200k, $200k to $400k, $400k to $600k, and over $600k. I call the top band “expensive.”</p>
 </section>
+<section id="the-typical-metro-home" class="level2">
+<h2 class="anchored" data-anchor-id="the-typical-metro-home">1. The typical metro home</h2>
+<p><img src="../../pages/project/figs/zillow_median.png" class="img-fluid" style="width:100.0%"></p>
+<p>The typical metro home value rose from $129K to $363K. The shaded bands mark the housing bust and the pandemic boom, the two periods that shaped the rest of this story.</p>
 </section>
-<section id="plot-header" class="level2">
-<h2 class="anchored" data-anchor-id="plot-header">Plot Header</h2>
-<p><img src="../../pages/project/figs/mpg-by-wt-for-cyl.png" class="img-fluid" style="width:80.0%" alt="This is alt-text for describing the plot for screen readers ..."></p>
+<section id="a-shifting-mix" class="level2">
+<h2 class="anchored" data-anchor-id="a-shifting-mix">2. A shifting mix</h2>
+<p><img src="../../pages/project/figs/zillow_composition.png" class="img-fluid" style="width:100.0%"></p>
+<p>Each column adds up to 100% of metros. In 2000, 0% of metros were in the top band. By 2026, that share was 9%. Watching the orange layer grow, and the lighter blue layers shrink, is the clearest picture of the change in composition.</p>
+</section>
+<section id="how-many-metros-crossed-600k" class="level2">
+<h2 class="anchored" data-anchor-id="how-many-metros-crossed-600k">3. How many metros crossed $600k</h2>
+<p><img src="../../pages/project/figs/zillow_count.png" class="img-fluid" style="width:100.0%"></p>
+<p>In raw counts, 0 metros were over $600k in 2000 and 8 were by 2026. Looking at the line, you can see when the group of expensive metros grew fastest, and whether the bust and the pandemic boom moved it.</p>
+</section>
+<section id="where-it-happened" class="level2">
+<h2 class="anchored" data-anchor-id="where-it-happened">4. Where it happened</h2>
+<p><img src="../../pages/project/figs/zillow_region.png" class="img-fluid" style="width:100.0%"></p>
+<p>The rise of expensive metros was not even across the country. Lines are labeled directly at the end so you do not need a legend. By 2026, the <strong>West</strong> had the largest share of metros over $600k.</p>
+</section>
+<section id="the-biggest-movers" class="level2">
+<h2 class="anchored" data-anchor-id="the-biggest-movers">5. The biggest movers</h2>
+<p><img src="../../pages/project/figs/zillow_movers.png" class="img-fluid" style="width:100.0%"></p>
+<p>Overall, 90 of the 90 metros moved up at least one price band between 2000 and 2026. The chart shows the 12 metros that gained the most in dollars, and the color of the end point shows which band each one ended in.</p>
+</section>
+<section id="a-caveat-where-you-draw-the-line-matters" class="level2">
+<h2 class="anchored" data-anchor-id="a-caveat-where-you-draw-the-line-matters">6. A caveat: where you draw the line matters</h2>
+<p><img src="../../pages/project/figs/zillow_threshold.png" class="img-fluid" style="width:100.0%"></p>
+<p>The $600k line is my choice, and a different cutoff gives a different count. These values are also nominal dollars, so some of the move into higher bands reflects general inflation and not only real price growth. A cutoff of $400k tells a more crowded story than a cutoff of $800k, which is why I show all three here.</p>
+</section>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<ul>
+<li>The typical metro home value went from $129K in 2000 to $363K in 2026.</li>
+<li>The share of metros in the expensive band rose from 0% to 9%, and 90 of 90 metros moved up at least one price band.</li>
+<li>The <strong>West</strong> had the largest share of expensive metros in 2026, so the change was not even across regions.</li>
+<li>The size of the “expensive” group depends on where you set the cutoff, and prices are not adjusted for inflation, so the results should be read as a pattern and not an exact count.</li>
+</ul>
 
 
 </section>

@@ -2,72 +2,177 @@
   {
     "objectID": "pages/project/page01.html",
     "href": "pages/project/page01.html",
-    "title": "This is the pages/project/page01.qmd title",
+    "title": "How Have U.S. Metro Home Prices Changed?",
     "section": "",
-    "text": "This is a Quarto website. This is a file for a decidated page for your website. This file is only needed if you do not build your website as a single page in pages/index.qmd"
+    "text": "Over the past two decades, U.S. home values went through a boom, a crash, a slow recovery, and a pandemic surge. This page asks a simple question: how many metro areas have moved into “expensive” territory, and where did it happen?"
   },
   {
-    "objectID": "pages/project/page01.html#this-is-a-header",
-    "href": "pages/project/page01.html#this-is-a-header",
-    "title": "This is the pages/project/page01.qmd title",
-    "section": "This is a header",
-    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nalong with full URL links https://quarto.org/docs/websites or labelled Claremont McKenna College links.\n\n\nAnd a code block"
-  },
-  {
-    "objectID": "pages/project/page01.html#plot-header",
-    "href": "pages/project/page01.html#plot-header",
-    "title": "This is the pages/project/page01.qmd title",
-    "section": "Plot Header",
-    "text": "Plot Header"
-  },
-  {
-    "objectID": "now.html",
-    "href": "now.html",
-    "title": "This is my now.qmd page title",
+    "objectID": "pages/project/page01.html#the-question",
+    "href": "pages/project/page01.html#the-question",
+    "title": "How Have U.S. Metro Home Prices Changed?",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "Over the past two decades, U.S. home values went through a boom, a crash, a slow recovery, and a pandemic surge. This page asks a simple question: how many metro areas have moved into “expensive” territory, and where did it happen?"
   },
   {
-    "objectID": "now.html#this-is-a-header",
-    "href": "now.html#this-is-a-header",
-    "title": "This is my now.qmd page title",
-    "section": "This is a header",
-    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nMy Now page\nMy Project page\nGo back home"
+    "objectID": "pages/project/page01.html#the-data",
+    "href": "pages/project/page01.html#the-data",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "The data",
+    "text": "The data\nI use Zillow’s Home Value Index (ZHVI), which estimates the typical home value in each metro area each month. The data covers 90 metros from 2000 to 2026. I average each metro’s monthly values within a year and sort every metro-year into one of four price bands: under $200k, $200k to $400k, $400k to $600k, and over $600k. I call the top band “expensive.”"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Name",
+    "objectID": "pages/project/page01.html#the-typical-metro-home",
+    "href": "pages/project/page01.html#the-typical-metro-home",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "1. The typical metro home",
+    "text": "1. The typical metro home\n\nThe typical metro home value rose from $129K to $363K. The shaded bands mark the housing bust and the pandemic boom, the two periods that shaped the rest of this story."
+  },
+  {
+    "objectID": "pages/project/page01.html#a-shifting-mix",
+    "href": "pages/project/page01.html#a-shifting-mix",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "2. A shifting mix",
+    "text": "2. A shifting mix\n\nEach column adds up to 100% of metros. In 2000, 0% of metros were in the top band. By 2026, that share was 9%. Watching the orange layer grow, and the lighter blue layers shrink, is the clearest picture of the change in composition."
+  },
+  {
+    "objectID": "pages/project/page01.html#how-many-metros-crossed-600k",
+    "href": "pages/project/page01.html#how-many-metros-crossed-600k",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "3. How many metros crossed $600k",
+    "text": "3. How many metros crossed $600k\n\nIn raw counts, 0 metros were over $600k in 2000 and 8 were by 2026. Looking at the line, you can see when the group of expensive metros grew fastest, and whether the bust and the pandemic boom moved it."
+  },
+  {
+    "objectID": "pages/project/page01.html#where-it-happened",
+    "href": "pages/project/page01.html#where-it-happened",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "4. Where it happened",
+    "text": "4. Where it happened\n\nThe rise of expensive metros was not even across the country. Lines are labeled directly at the end so you do not need a legend. By 2026, the West had the largest share of metros over $600k."
+  },
+  {
+    "objectID": "pages/project/page01.html#the-biggest-movers",
+    "href": "pages/project/page01.html#the-biggest-movers",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "5. The biggest movers",
+    "text": "5. The biggest movers\n\nOverall, 90 of the 90 metros moved up at least one price band between 2000 and 2026. The chart shows the 12 metros that gained the most in dollars, and the color of the end point shows which band each one ended in."
+  },
+  {
+    "objectID": "pages/project/page01.html#a-caveat-where-you-draw-the-line-matters",
+    "href": "pages/project/page01.html#a-caveat-where-you-draw-the-line-matters",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "6. A caveat: where you draw the line matters",
+    "text": "6. A caveat: where you draw the line matters\n\nThe $600k line is my choice, and a different cutoff gives a different count. These values are also nominal dollars, so some of the move into higher bands reflects general inflation and not only real price growth. A cutoff of $400k tells a more crowded story than a cutoff of $800k, which is why I show all three here."
+  },
+  {
+    "objectID": "pages/project/page01.html#takeaways",
+    "href": "pages/project/page01.html#takeaways",
+    "title": "How Have U.S. Metro Home Prices Changed?",
+    "section": "Takeaways",
+    "text": "Takeaways\n\nThe typical metro home value went from $129K in 2000 to $363K in 2026.\nThe share of metros in the expensive band rose from 0% to 9%, and 90 of 90 metros moved up at least one price band.\nThe West had the largest share of expensive metros in 2026, so the change was not even across regions.\nThe size of the “expensive” group depends on where you set the cutoff, and prices are not adjusted for inflation, so the results should be read as a pattern and not an exact count."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "I am a … blah blah"
+    "text": "Claremont McKenna College | Claremont, California | Aug 2023 to Dec 2026\n\nBachelor of Arts in Economics, minor in Data Science\nRelevant coursework: International Finance, Corporate Finance, Econometrics, Data Science and Structures, Behavioral Econ"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "My Name",
-    "section": "Education",
-    "text": "Education\nInstitution | City, State B.A in Degree | start - finish"
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "Claremont McKenna College | Claremont, California | Aug 2023 to Dec 2026\n\nBachelor of Arts in Economics, minor in Data Science\nRelevant coursework: International Finance, Corporate Finance, Econometrics, Data Science and Structures, Behavioral Econ"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "My Name",
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
     "section": "Experience",
-    "text": "Experience\nOrganization A | Title | start - finish\nOrganization b | Title | start - finish"
+    "text": "Experience\nComstock Inc. (NYSE: LODE) | Operations Analyst | Carson City, Nevada | Jun 2026 to Sep 2026\n\nAdvised leadership on enterprise AI and ERP adoption through a 5-year total cost of ownership analysis of three platforms.\nRan 15+ stakeholder interviews to diagnose operational bottlenecks and reframe the problem before proposing solutions.\nBuilt the business case and executive presentation guiding digital transformation for a publicly listed, multi-entity company.\nBuilt a techno-economic model comparing 3 bioenergy pathways and 4 business models on NPV, payback period, and IRR, with discounted cash flow and sensitivity analysis across greenfield, brownfield, supply, and royalty scenarios.\nDelivered a decision-ready financial model and guide used by leadership to assess market entry and partnership economics.\n\nStarpoint Properties (CMC Real Estate Practicum) | Real Estate Analyst | Claremont, California | Jan 2026 to May 2026\n\nAnalyzed optimal EV charging sites across U.S. markets by land pricing, grid access, zoning, and permitting feasibility.\nBuilt a Python and R model to rank 100+ sites by EV demand, traffic density, market growth, and adoption.\nSupported net lease investment decisions by modeling cash flows, rent escalations, and downside risk for EV infrastructure assets.\n\nICICI Prudential Asset Management Company | Equity Research Analyst | Mumbai, India | May 2025 to Jul 2025\n\nResearched FMCG and Industrial companies and supported PMS/AIF portfolio strategy at India’s largest AMC (AUM about $100B).\nBuilt DCF, relative valuation, and residual income models to support stock recommendations and market sentiments.\nCreated equity reports to guide buy, hold, and sell decisions across $5mn in assets and participated in client earnings calls.\n\nStreet Smart | Business Development and GTM Intern | San Francisco, California (Remote) | Jun 2025 to Aug 2025\n\nDrove outreach to 50 institutional and student leads for a finance-focused SaaS platform used by 500 jobseekers.\nHelped increase lead conversion rates by refining pitch scripts and scaling LinkedIn and email automation campaigns.\nCoordinated with product and growth teams to target university career centers and close 5+ pilot deals."
+  },
+  {
+    "objectID": "resume.html#activities-and-societies",
+    "href": "resume.html#activities-and-societies",
+    "title": "Resume",
+    "section": "Activities and Societies",
+    "text": "Activities and Societies\nPomona Ventures | Leadership Team | Claremont, California | Sep 2024 to Present\n\nOrganized Sagetank, a pitch competition with $6,000 in prizes and funding, engaging student startups and ideas.\nFacilitated collaboration between 8 startup founders and 50+ students, providing resources and skill-building workshops.\nRecruited and onboarded 15+ new members, leading them through entrepreneurship training and startup development initiatives.\n\nPomona Consulting Group | Senior Consultant | Claremont, California | Jan 2024 to Present\n\nConducted market sizing and quantitative analysis on 3 projects using SWOT and STEEPLE analysis, boosting client insights.\nCollaborated on 5 business plans with cross-functional teams, using software like Miro and Figma to help clients meet their goals.\nLed a client project end-to-end, optimizing SEO and client websites, resulting in a 25% increase in customer traffic.\n\nRobert Day School of Economics and Finance | Economics Tutor, ECON 122 | Claremont, California | Sep 2025 to Present\n\nTutor 40 students in ECON 122, Data Science and Statistical Learning.\nTeach ML models, supervise student projects, and grade problem sets."
+  },
+  {
+    "objectID": "resume.html#skills-and-interests",
+    "href": "resume.html#skills-and-interests",
+    "title": "Resume",
+    "section": "Skills and Interests",
+    "text": "Skills and Interests\nSkills: Financial and economic modeling, AI research, Microsoft Office, Python, R, HTML\nLanguages: English, Hindi (proficient), Marathi (intermediate)\nInterests: Card games, manga, fantasy soccer, FC Barcelona"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "This is the about.qmd page title",
+    "title": "About",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "I am a senior at Claremont McKenna College, graduating in December 2026 with a B.A. in Economics and a minor in Data Science. My work sits at the intersection of finance and data: I build financial models, do equity and market research, and use Python and R to turn messy data into clear answers."
   },
   {
-    "objectID": "about.html#this-is-a-header",
-    "href": "about.html#this-is-a-header",
-    "title": "This is the about.qmd page title",
-    "section": "This is a header",
-    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …"
+    "objectID": "about.html#what-i-have-worked-on",
+    "href": "about.html#what-i-have-worked-on",
+    "title": "About",
+    "section": "What I have worked on",
+    "text": "What I have worked on\n\nCorporate strategy and operations: AI and ERP adoption analysis, stakeholder interviews, and financial modeling at Comstock Inc.\nReal estate: ranking 100+ EV charging sites by demand, traffic density, and market growth for the CMC Real Estate Practicum with Starpoint Properties.\nEquity research: DCF and relative valuation models at ICICI Prudential Asset Management Company in Mumbai.\nEntrepreneurship and consulting: leading events and onboarding for Pomona Ventures, and working as a Senior Consultant with Pomona Consulting Group."
+  },
+  {
+    "objectID": "about.html#outside-of-work",
+    "href": "about.html#outside-of-work",
+    "title": "About",
+    "section": "Outside of work",
+    "text": "Outside of work\nI like card games, manga, fantasy soccer, and following FC Barcelona. I also play intermural pickleball, soccer, and flag football. I speak English and Hindi, and I am working on my Marathi."
+  },
+  {
+    "objectID": "about.html#get-in-touch",
+    "href": "about.html#get-in-touch",
+    "title": "About",
+    "section": "Get in touch",
+    "text": "Get in touch\nThe best way to reach me is on LinkedIn."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pranav Singhvi",
+    "section": "",
+    "text": "I am a senior at Claremont McKenna College studying Economics with a minor in Data Science. I enjoy combining financial modeling, research, and data analysis to answer practical questions, and I work in Python and R."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Pranav Singhvi",
+    "section": "Education",
+    "text": "Education\nClaremont McKenna College | Claremont, California\nB.A. in Economics, minor in Data Science | Aug 2023 to Dec 2026"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Pranav Singhvi",
+    "section": "Experience",
+    "text": "Experience\nComstock Inc. | Operations Analyst | Jun 2026 to Sep 2026\nStarpoint Properties (CMC Real Estate Practicum) | Real Estate Analyst | Jan 2026 to May 2026\nICICI Prudential Asset Management Company | Equity Research Analyst | May 2025 to Jul 2025\nStreet Smart | Business Development and GTM Intern | Jun 2025 to Aug 2025\nSee the full details on my Resume page, or read my Housing Story, a data story on how U.S. metro home prices have changed."
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
+    "section": "",
+    "text": "Last updated: November 2026"
+  },
+  {
+    "objectID": "now.html#what-i-am-doing-right-now",
+    "href": "now.html#what-i-am-doing-right-now",
+    "title": "Now",
+    "section": "What I am doing right now",
+    "text": "What I am doing right now\n\nFinishing my last semester at Claremont McKenna College. I graduate in December 2026.\nTutoring ECON 122 (Data Science and Statistical Learning) for the Robert Day School of Economics and Finance, and helping students with ML models and projects.\nWorking with Pomona Ventures and Pomona Consulting Group, supporting startup events and client projects.\nBuilding a data story on how U.S. metro home prices have changed, using Zillow data. You can read it on the Housing Story page."
+  },
+  {
+    "objectID": "now.html#what-i-am-learning",
+    "href": "now.html#what-i-am-learning",
+    "title": "Now",
+    "section": "What I am learning",
+    "text": "What I am learning\nI am learning data visualization in R, with a focus on how design choices like titles, colors, and direct labels change what a reader takes away from a chart."
   },
   {
     "objectID": "pages/project/index.html",
